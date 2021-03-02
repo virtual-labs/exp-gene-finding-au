@@ -88,23 +88,85 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+    const myQuestions = [
+        
+        {
+            question: "1. Function of tRNA in protein synthesis:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Trancription of DNA sequence", ///// Write the option 1 inside double quotes
+                b: "Transfers aminoacids to the ribosomes", ///// Write the option 2 inside double quotes
+                c: "Transfer mRNA to cytoplasm", ///// Write the option 2 inside double quotes
+                d: "Elongating DNA sequence", ///// Write the option 2 inside double quotes
             },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "2. Purpose of nonsense codon", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Indicate the site for transcription start process", ///// Write the option 1 inside double quotes
+                b: "Indicate the site for translation start process", ///// Write the option 2 inside double quotes
+                c: "Indicate the site for translation stop process", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+
+
+
+
+        {
+            question: "3. Anticodon for the first added amino acid by added by the tRNA", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "ACG", ///// Write the option 1 inside double quotes
+                b: "GAC", ///// Write the option 2 inside double quotes
+                c: "UAC", ///// Write the option 2 inside double quotes
+                d: "UGC", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "4.Function used to arrange input sequences in order of positions :", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "arrange(positions)", ///// Write the option 1 inside double quotes
+                b: "order(positions)", ///// Write the option 2 inside double quotes
+                c: "arrange[positions]", ///// Write the option 2 inside double quotes
+                d: "order{positions}", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "5. Identify Kozak consensus sequence from the list:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "GCCACCAUGG", ///// Write the option 1 inside double quotes
+                b: "ATTGAATAUG", ///// Write the option 2 inside double quotes
+                c: "GTCAAATTAA", ///// Write the option 2 inside double quotes
+                d: "AGGTTAACC", ///// Write the option 2 inside double quotes
+            },
+            
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
 
 
         
