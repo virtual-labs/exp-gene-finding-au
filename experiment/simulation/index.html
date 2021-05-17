@@ -9,26 +9,39 @@
 
     </title>
     <body>
-        <!--h1>Vlab experiment Finding Start and Stop codons</h1-->
-        <img src="./images/Amritalogo.png" alt="vlab logo" style="width:100px;height:30px;"/>
-        <img src="./images/vlablogo2.jpg" alt="vlab logo" style="width:70px;height:35px;">
 
-        <br>
-        <br>
+        <div class="card-header" style="max-width: 70rem; background: rgb(241, 239, 239);">
+            <div class="row">
+
+                <div class="col-1" style="left: 10px; text-align: center;">
+                    <img src="./images/Amritalogo.png" style="width:300px;height:90px;"/>
+                </div>
+
+                <div class="col-2" style="border-right: thick solid #d8d8d8ee; margin-left: 80px;"></div>
+
+                <div class="col-6" style="margin-left: 40px;">
+                    <!--h2><b>Simulator</b></h1-->
+                    </br>
+                    <h5 class="card-subtitle mb-2 text-muted"><b><i>Gene finding: Finding Start and Stop codons using R</i></b></h2>
+                </div>
+
+            </div>
+  
+        </div>
         
-        <div>
-            <form>
+        <div class="card-header" style="max-width: 70rem; background: rgb(253, 253, 253);">
+            <form style="padding: 150px;">
 
                 <div class="form-group">
                     
-                    <label for="dnainput">DNA sequence</label></br>
+                    <!--label for="dnainput">DNA sequence</label></br-->
                     <textarea id="dnainput" name="textareainput" rows="5" cols="70" placeholder="enter you sequence here..." ></textarea>
                     
                     </br>
                     </br>
 
                     <button class="btn btn-success" id="findcodon" onclick="FindGC()" type="button" style="width: 108px">Find</button>
-                    <a href="./sequence.fasta" download="Samplefile.fasta" > <button type="button">Sample File </button> </a>
+                    <a href="./sequence.fasta" download="Samplefile.fasta" > <button class="btn btn-light" type="button">Sample File </button> </a>
                     
                     <br>
                     <br>
